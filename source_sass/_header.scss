@@ -1,0 +1,88 @@
+//Reference: http://codepen.io/Fraser/pen/mJaGGL
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #f6f6f6;
+	z-index: 100;
+	height: 170px;
+	
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.header .af-inner {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 2.0em;
+    .active-nav{
+        color:$coloryellow;
+    }
+}
+
+.header h1,
+.header nav {
+	display: inline-block;
+	position: relative;
+    
+}
+//------------------------------------------------
+
+.header {
+
+h1 {
+	text-transform: uppercase;
+	color: balck;
+	letter-spacing: 4px;
+	font-size: 5em;
+    margin: 0;
+	float: left;
+    font-family: $font-primary;
+    line-height: 230px;
+    -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+    nav {
+    a {
+	color: darkgrey;
+	font-weight: 700;
+	margin: 0 0 0 20px;
+	font-size: 2em;
+    line-height: 230px;
+    -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+        
+}
+
+    a:hover {
+	color: $colorblue;
+}
+    float: right;
+}
+
+}
+
+//-----------------------------------
+
+
+
+
+.header.header-shrink {
+    height: 80px;
+    nav a {
+	line-height: 80px;
+}
+     h1 {
+	font-size: 2em;
+    line-height: 80px;
+}
+
+}

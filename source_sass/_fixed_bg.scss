@@ -1,0 +1,50 @@
+// <!----------------fixed photo----------------->
+
+#background{
+
+
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://dandiw.squarespace.com/s/Fixed_chair.jpeg");
+      background-size: cover;
+      height: 100vh;
+      background-attachment: fixed;
+}
+  
+   
+    
+            #bg_title{
+                  position:absolute;
+                  top: 50%;
+                  left:50%;
+                  transform: translate(-50%, -50%);
+                  text-transform: uppercase;
+                  position:relative;
+                  font-family: $font-primary;
+                  font-weight:50; 
+                  text-align: center;
+                  //float:right;
+                  color: white;
+                   //padding: 5rem;
+                   width: 100%;
+                   margin:5rem;
+                   float: right;
+                   font-size: 3rem;
+                   //left:150px;
+                  // top:170px;
+                   margin:10px;
+                   #bg_p{  
+                       text-transform: capitalize;
+                        font-weight: 10;
+                        font-size: 3rem;
+                        font-family: $font-secondary;
+                        margin:60px;
+
+
+                       }
+              
+           }
+        
