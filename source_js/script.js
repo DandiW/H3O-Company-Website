@@ -11,7 +11,7 @@ function highlightThis(event) {
 
     var backgroundColor = this.style.backgroundColor;
     //this.style.backgroundColor='yellow';
-    alert(this.className);
+    //alert(this.className);
     this.style.backgroundColor=backgroundColor;
 }
 
@@ -145,7 +145,7 @@ var AnimatedHeader = (function() {
 
 'use strict';
 
-
+});
 
 
 
@@ -189,6 +189,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
 
 
 
